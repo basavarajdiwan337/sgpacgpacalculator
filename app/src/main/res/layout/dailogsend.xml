@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text="Here you can send your file through using">
+
+    </TextView>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_gravity="center"
+        android:text="Whatsapp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/what">
+
+    </Button>
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="Google Form"
+        android:textColor="#FF003B"
+        android:layout_marginTop="10dp">
+    </Button>
+</LinearLayout>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bh"
+    android:orientation="vertical"
+    tools:context=".ugpg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SELECT COURSE"
+                   android:gravity="center"
+                    android:textSize="25dp"
+                    android:layout_marginTop="45dp"
+                    android:textColor="#52221A"
+                    android:textStyle="bold">
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/branch"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/req"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="*Requesting.."
+                    android:textColor="#000"
+                   >
+                </TextView>
+                <TextView
+                    android:id="@+id/send"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="If you have your semester books/"
+                    android:layout_below="@+id/req"
+                    android:textColor="#000">
+
+                </TextView>
+               <Button
+                   android:layout_width="110dp"
+                   android:layout_height="match_parent"
+                   android:background="@color/colorPrimary"
+                   android:id="@+id/sendfile"
+                   android:text="SEND HERE"
+                   android:layout_marginLeft="260dp"
+                   android:layout_below="@+id/req">
+
+               </Button>
+
+                <TextView
+
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/send"
+                    android:layout_marginLeft="3dp"
+                    android:text="notes/question papers/syllabus send here,for further use and help to juniors."
+                    android:textColor="#000"></TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                   android:id="@+id/f1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/s1"
+                   android:gravity="center"
+                   android:layout_marginTop="0dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/first"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="10dp"
+                    android:outlineAmbientShadowColor="@color/cardview_dark_background"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/mba" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="MBA"
+                            android:textColor="#000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/second"
+                    android:layout_width="180dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/mca" />
+
+                        <TextView
+                            android:id="@+id/last"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="MCA"
+                            android:textColor="#000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/third1"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_below="@+id/first"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/cse" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="CSE"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fourth"
+                    android:layout_width="180dp"
+                    android:layout_height="170dp"
+                    android:layout_below="@+id/second"
+                    android:layout_marginLeft="180dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/ec" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:text="ECE"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fifth"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_below="@+id/third1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mech" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ME"
+                            android:textColor="#000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sixth"
+                    android:layout_width="180dp"
+                    android:layout_height="170dp"
+                    android:layout_below="@+id/fourth"
+                    android:layout_marginLeft="180dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/civil" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:text="CIVIL"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/f1"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:text="*Note: if link isn't opening please try one more time.">
+
+            </TextView>
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>

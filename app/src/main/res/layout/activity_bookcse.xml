@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bookcse">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cp1">
+
+    </ImageView>
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_file_download"
+            android:text="C Programming Language">
+
+        </Button>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/oops1">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_file_download"
+            android:text="C++ Programming Language">
+
+        </Button>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="200dp"
+            android:src="@drawable/java1">
+
+        </ImageView>
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_file_download"
+            android:text="Java programming Language">
+
+        </Button>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="200dp"
+            android:src="@drawable/python1">
+
+        </ImageView>
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_file_download"
+            android:text="Python Programming Language">
+
+        </Button>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="200dp"
+            android:src="@drawable/php1">
+
+        </ImageView>
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_file_download"
+            android:text="Php programming language">
+
+        </Button>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/java2">
+
+        </ImageView>
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_file_download"
+            android:text="Java Programming Language">
+
+        </Button>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Description"
+                android:textColor="#000"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+            <TextView
+                android:id="@+id/last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="Who can use this Application?"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/last1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/last"
+                android:text="  Affiliated College students of Basaveshwara Engineering College Bagalkot,Karnataka"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/last1"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="1] SGPA"
+                android:layout_marginTop="20dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/second"
+                android:textColor="#000"
+                android:text="    Its Known as Semester Grade Point Average System. Its calculated in each semester as per subject credits and secured grades."
+                />
+
+
+            <ImageView
+                android:id="@+id/fifth"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/sg"
+                android:layout_below="@+id/third">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/sixth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fifth"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="2] CGPA."
+                android:layout_marginTop="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sixth"
+                android:textColor="#000"
+                android:text="    Its Known as Cumulative Grade Point Average System. Its calculated as per the total credits of each semester and secured SGPA in each semester."
+                />
+            <ImageView
+                android:id="@+id/sixth1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/cg"
+                android:layout_below="@+id/seven">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sixth1"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="3] Placement."
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:id="@+id/nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eight"
+                android:textColor="#000"
+                android:text="  It includes files of all company training and preperation skills.">
+            </TextView>
+            <TextView
+                android:id="@+id/ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nine"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="4] Programming."
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:id="@+id/eleven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ten"
+                android:textColor="#000"
+                android:text="  Its having  Programming language books. Download and save in your drive.">
+            </TextView>
+            <TextView
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eleven"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="5] Library."
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b1"
+                android:textColor="#000"
+                android:text=" Its including all branches' book/notes/syllabus/question papers,here you can view and save in your drive.">
+            </TextView>
+            <TextView
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b2"
+                android:textColor="#000"
+                android:text=" * 'send here' button is there you can send your semester or previous books.. etc by using whatsapp or google form,it helps to others.">
+            </TextView>
+
+            <TextView
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b3"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="6] BEC result site."
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:id="@+id/r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r1"
+                android:textColor="#000"
+                android:text="  here you can view your semester results.">
+            </TextView>
+            <TextView
+                android:id="@+id/g1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r2"
+                android:textColor="#000"
+                android:text=" * Goal : user friendly,free access all files,help to others"
+                android:layout_marginTop="20dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/d1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/g1"
+                android:textColor="#000"
+                android:text=" *Developer : I have tried my level best"
+                android:layout_marginTop="20dp">
+            </TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.becresult.splash">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="160dp"
+            android:layout_marginTop="240dp"
+            app:srcCompat="@drawable/splash"/>
+
+
+        <ProgressBar
+            android:id="@+id/pbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+        </ProgressBar>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BEC BRIGHT"
+            android:textColor="#fff"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:fontFamily="@font/croissant_one"
+            />
+
+</LinearLayout>
